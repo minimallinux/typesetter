@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Table of Validation Descriptors</title>
+<style type="text/css">
+table.datatable td { border-bottom:3px solid green; padding-top:10px; padding-bottom:10px; }
+</style>
+</head>
+<body>
+
+<p id="descriptors">
+<h3>JavaScript Form Validator Version 3.1.2</h3>
+<a href="http://www.javascript-coder.com/html-form/javascript-form-validation.phtml#descriptors">Table of Validation Descriptors</a>
+</p>
+
+<table cellspacing="0" class="datatable">
+
+<thead>
+<tr>
+<td>Validation Descriptor</td><td>Usage</td>
+</tr>
+</thead>
+
+<tr>
+<td>required or<br />req</td>
+<td>The field should not be empty.<p>Note that this validation if for fields like Textbox and multi-line text box. For ‘selections’ like drop down and radio group, use an appropriate validation like ‘dontselect’ or ‘selone_radio’.</p></td>
+</tr>
+
+<tr>
+<td>maxlen=??? or<br />maxlength=???</td>
+<td>Limits the length of the input.<br />For example, if the maximum size permitted is 25, give the validation descriptor as “maxlen=25”</td>
+</tr>
+
+<tr>
+<td>minlen=??? or<br />minlength=???</td>
+<td>Checks the length of the entered string to the required minimum.<br />Example “minlen=5”</td>
+</tr>
+
+<tr>
+<td>alphanumeric or<br />alnum</td>
+<td>The input can contain alphabetic or numeric characters only.<br />(Note that space or punctuation also are not allowed since those characters are not alpha numeric)</td>
+</tr>
+
+<tr>
+<td>alphanumeric_space<br />alnum_s</td>
+<td>Allows only alphabetic, numeric and space characters</td>
+</tr>
+
+<tr>
+<td>num<br />numeric</td>
+<td>Allow numbers only</td>
+</tr>
+
+<tr>
+<td>alpha<br />alphabetic</td>
+<td>Allow only alphabetic characters.</td>
+</tr>
+
+<tr>
+<td>alpha_s<br />alphabetic_space</td>
+<td>Allows alphabetic and space characters</td>
+</tr>
+
+<tr>
+<td>email</td>
+<td>Validates the field to be a proper email address.<br />(Note, However that the validation can’t check whether the email address exists or not)</td>
+</tr>
+
+<tr>
+<td>lt=???<br />lessthan=???</td>
+<td>Verify the data to be less than the value passed. Valid only for numeric fields.<br />Example: if the value should be less than 1000 give validation description as “lt=1000”</td>
+</tr>
+
+<tr>
+<td>gt=???<br />greaterthan=???</td>
+<td>Verify the data to be greater than the value passed. Valid only for numeric fields.<br />Example: if the value should be greater than 10 give validation description as “gt=10”</td>
+</tr>
+
+<tr>
+<td>regexp=???</td>
+<td>Match the input with a regular expression.<br />Example: “regexp=^[A-Za-z]{1,20}$” allow up to 20 alphabetic characters.</td>
+</tr>
+
+<tr>
+<td>dontselect=??</td>
+<td>This validation descriptor is valid only for drop down lists. The drop down select list boxes usually will have one item saying ‘Select One’ (and that item will be selected by default). The user should select an option other than this ‘Select One’ item.<br />If the<strong>value</strong>of this default option is ’000', the validation description should be “dontselect=000”<p></p><p><img width="252" height="48" class="alignnone size-full wp-image-427" alt="Dropdown box with default selected" src="drop-down-with-default.png" /></p><p><img width="404" height="46" class="alignnone size-full wp-image-429" alt="Drop down list source" src="drop-down-source.png" /></p></td>
+</tr>
+
+<tr>
+<td>dontselectchk=??</td>
+<td>This validation descriptor is only for check boxes. The user should not select the given check box. Provide the value of the check box instead of ??<br />For example, dontselectchk=on</td>
+</tr>
+
+<tr>
+<td>shouldselchk=??</td>
+<td>This validation descriptor is only for check boxes. The user should select the given check box. Provide the value of the check box instead of ??<br />For example, shouldselchk=on</td>
+</tr>
+
+<tr>
+<td>selone_radio</td>
+<td>One of the radio buttons should be selected.<br />Example:<table><tr><td class="content"><code class="plain"> chktestValidator.addValidation( "Options" , "selone" ); </code></td></tr></table></td>
+</tr>
+
+</table>
+
+</body>
+</html>
