@@ -1,0 +1,8 @@
+{
+    "name": "typesetter",
+    "description": "This is a very cool package!",
+    "version": "1.0.0",
+    "type": "website",
+    "keywords": ["logging", "cool", "awesome"],
+    "homepage": "https://floating-meadow-76364.herokuapp.com/"
+}
