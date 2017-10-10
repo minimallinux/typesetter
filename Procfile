@@ -1,1 +1,1 @@
-web: 
+web: "http://localhost:80"
