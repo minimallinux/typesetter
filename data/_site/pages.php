@@ -1,11 +1,11 @@
 <?php
 defined('is_running') or die('Not an entry point...');
 $fileVersion = '5.1';
-$fileModTime = '1507644756';
+$fileModTime = '1507836654';
 $file_stats = array (
   'created' => 1507633072,
   'gpversion' => '5.1',
-  'modified' => 1507644756,
+  'modified' => 1507836654,
   'username' => 'admin',
 );
 
@@ -27,10 +27,10 @@ $pages = array (
     'About' => '1c7pnos9r7d',
     'Products' => '1c7pnos9r7e',
     'Services' => '1c7pnos9r7f',
-    'Social' => '1c7pnos9r7h',
-    'Home' => '1c7pnos9r7i',
     'scf' => 'special_scf',
     'Gallery' => '1c7pnos9r7j',
+    'Home' => '1c7pnos9r7k',
+    'Social' => '1c7pnos9r7l',
   ),
   'gp_titles' => 
   array (
@@ -74,16 +74,6 @@ $pages = array (
       'label' => 'Services',
       'type' => 'gallery,text,wrapper_section',
     ),
-    '1c7pnos9r7h' => 
-    array (
-      'label' => 'Social',
-      'type' => 'image,text,wrapper_section',
-    ),
-    '1c7pnos9r7i' => 
-    array (
-      'label' => 'Home',
-      'type' => 'image,text,wrapper_section',
-    ),
     'special_scf' => 
     array (
       'label' => 'Contact',
@@ -96,6 +86,16 @@ $pages = array (
     array (
       'label' => 'Gallery',
       'type' => 'gallery',
+    ),
+    '1c7pnos9r7k' => 
+    array (
+      'label' => 'Home',
+      'type' => 'gallery,text,wrapper_section',
+    ),
+    '1c7pnos9r7l' => 
+    array (
+      'label' => 'Social',
+      'type' => 'gallery,text,wrapper_section',
     ),
   ),
   'gpLayouts' => 

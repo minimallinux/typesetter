@@ -1,11 +1,11 @@
 <?php
 defined('is_running') or die('Not an entry point...');
 $fileVersion = '5.1';
-$fileModTime = '1507666088';
+$fileModTime = '1507837066';
 $file_stats = array (
   'created' => 1507633072,
   'gpversion' => '5.1',
-  'modified' => 1507666088,
+  'modified' => 1507837066,
   'username' => 'admin',
 );
 
@@ -15,7 +15,7 @@ $gpAdmin = array (
   'gpui_ty' => 39,
   'gpui_ckx' => 20,
   'gpui_cky' => 240,
-  'gpui_vis' => 'con',
+  'gpui_vis' => 'use',
   'gpui_thw' => 309,
   'username' => 'admin',
   'granted' => 'all',
@@ -23,14 +23,14 @@ $gpAdmin = array (
   'useralias' => 'admin',
   'freq_scripts' => 
   array (
-    'Admin/Menu' => 64,
-    'Admin/Menu/Ajax' => 62,
-    'Admin_Theme_Content/Available' => 28,
-    'Admin_Theme_Content/Edit' => 11,
-    'Admin/Configuration' => 0,
+    'Admin/Menu' => 72,
+    'Admin/Menu/Ajax' => 68,
+    'Admin_Theme_Content/Available' => 26,
+    'Admin_Theme_Content/Edit' => 10,
+    'Admin/Extra' => 0,
   ),
   'remember' => 1507644184,
-  'checksum' => 'd8815d1364874db29218583c490dc87a',
+  'checksum' => '83332fddd11709dc61dbd1647fc5861e',
 );
 
 $meta_data = array (
